@@ -25,7 +25,6 @@ class HttpClient {
 
         this.axiosClient.interceptors.request.use(
             (request: any) => {
-
                 return request;
             },
             (error: any) => {
